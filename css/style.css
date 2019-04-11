@@ -394,7 +394,7 @@ blockquote p {
     vertical-align: middle;
     max-width: 100%;
     overflow: hidden;
-	background:#FFD600;
+	background:#00a207!important;
     outline: none;
 	padding: 15px 18px;
     display: inline-block;
@@ -422,7 +422,7 @@ blockquote p {
     -ms-transition: all 500ms linear;
     transition: all 500ms linear;
 	font-family: 'Montserrat', sans-serif;
-	font-size:25px;
+	font-size:23px;
 	text-transform:uppercase;
 }
 .btn.hide-icon i {
@@ -1098,7 +1098,9 @@ section.dec-sec:after {
 .impulse-wrap {
 	background-image: url(../images/njumu-bg/bg-13.jpg);
 	background-size: cover;
+	background-position: center;
 	position:absolute;
+	background-attachment: fixed;
 	top:0;
 	left:0;
 	opacity: 0.5;
@@ -1523,7 +1525,7 @@ section.dec-sec:after {
 	position:relative;
 	font-size:19px;
 	padding:20px 30px;
-	background:#404040;
+	/*background:#404040;*/
 }
 /*------ order ------------------------------------------------*/
 .order-wrap {
@@ -2285,7 +2287,7 @@ section.dec-sec:after {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.tooltip{
+/*.tooltip{
 	width:200px;
 	height: auto;
 	line-height: 20px;
@@ -2302,7 +2304,7 @@ section.dec-sec:after {
 	visibility: hidden;
 	pointer-events: none;
 	z-index:6;
-}
+}*/
 .tooltip h5 {
 	font-size:10px;
 	margin-top:12px;
@@ -3344,9 +3346,42 @@ footer.main-footer {
 .scroll-nav-holder {
 	display:none;
 }
+
+.logo-holder {
+	top:12px;
+	left:40%;
+	margin-left:-20px;
+}
+
 .inline-facts , .gallery-item {
     width:100% !important;
 }
+.btn.hide-icon span {
+	padding: 0 33px;
+	-webkit-transition: all 500ms linear;
+    -moz-transition: all 500ms linear;
+    -o-transition: all 500ms linear;
+    -ms-transition: all 500ms linear;
+    transition: all 500ms linear;
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	letter-spacing: -0.5px;
+	text-transform:uppercase;
+}
+.impulse-wrap:before {
+	display: none;
+}
+.btn.hide-icon i {
+	/*padding: 11px 20px 10px;*/
+	left: -60px;
+	height: 100%;
+	line-height: 25px;
+	display: inline-block;
+	position: absolute;
+	color:#fff !important;
+	top: 0;
+}
+
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 .bg {
