@@ -3368,6 +3368,29 @@ footer.main-footer {
 	letter-spacing: -0.5px;
 	text-transform:uppercase;
 }
+h3.shoe-name-modal {
+	margin-top: 10%!important;
+}
+
+.prdct-img-hidden {
+	width:80%!important;
+	vertical-align: middle!important;
+	display:none;
+}
+.prdct-img-block {
+	width: 80%!important;
+	vertical-align: middle!important;
+}
+
+.prdct-img-preview {
+	width:90%!important;
+	vertical-align: middle!important;
+	cursor:pointer;
+	border:1px solid #20638f;
+	border-radius: 50%;
+
+}
+
 .impulse-wrap:before {
 	display: none;
 }
