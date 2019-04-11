@@ -853,5 +853,8 @@ figure.snip1249.hover:after {
 .shoe-details-modal {
 	padding-bottom: 0px!important;
 }
-
+.add-to-cart-modal {
+	margin-bottom: 10%;
+}
+ 
 }
