@@ -826,3 +826,32 @@ figure.snip1249.hover:after {
 }
 
 
+/*RESPONSIVE DESIGN*/ 
+@media only screen and  (max-width: 540px) {
+	h3.shoe-name-modal {
+	margin-top: 10%;
+}
+
+.prdct-img-hidden {
+	width:80%;
+	vertical-align: middle;
+	display:none;
+}
+.prdct-img-block {
+	width: 80%;
+	vertical-align: middle;
+}
+
+.prdct-img-preview {
+	width:90%;
+	vertical-align: middle;
+	cursor:pointer;
+	border:1px solid #20638f;
+	border-radius: 50%;
+
+}
+.shoe-details-modal {
+	padding-bottom: 0px!important;
+}
+
+}
