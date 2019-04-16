@@ -1012,6 +1012,7 @@ section.dec-sec:after {
 	font-size:64px;
 	font-weight:900;
 	float:left;
+	line-height: normal;
 	width:100%;
 }
 .hero-wrap-item.left-her {
@@ -1096,14 +1097,15 @@ section.dec-sec:after {
   	transition: all 4000ms cubic-bezier(.19,1,.22,1) 0ms;
 }
 .impulse-wrap {
-	background-image: url(../images/njumu-bg/bg-13.jpg);
+	background-image: url(../images/njumu-bg/header2.png);
+	background-color: #fff;
 	background-size: cover;
 	background-position: center;
 	position:absolute;
 	background-attachment: fixed;
 	top:0;
 	left:0;
-	opacity: 0.5;
+	opacity: 0.15;
 	width:100%;
 	height:100%;
 	z-index:1;

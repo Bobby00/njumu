@@ -257,7 +257,7 @@
 
 .shoe-details {
 	padding-bottom: 0px!important;
-	font-size: 13px; 
+	font-size: 15px; 
 }
 
 .shoe-details-modal {
@@ -663,6 +663,70 @@ figure.snip1249 .add-to-cart:hover {
 
 }
 
+.secondary_btn {
+  display: inline-block;
+  width: auto;
+  background-color: #20638f;
+  padding: 12px 50px;
+  color: #fff;
+  border-radius: 30px;
+  margin-bottom: 8%;
+  margin-top: 30px;
+  right: 0;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.secondary_btn:hover {
+  background-color: #fff;
+  border: 2px solid #20638f;
+  color: #20638f;
+  display: inline-block;
+  width: auto;
+  padding: 12px 50px;
+  font-weight: 800;
+  font-size: 1.4em;
+  text-transform: uppercase;
+
+}
+
+.tertiary_btn {
+  display: inline-block;
+  width: auto;
+  background-color: #FD6A06;
+  padding: 12px 50px;
+  color: #fff;
+  border-radius: 30px;
+  margin-bottom: 8%;
+  margin-top: 5%;
+  right: 0;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.tertiary_btn:hover {
+  background-color: #fff;
+  border: 2px solid #FD6A06;
+  color: #FD6A06;
+  display: inline-block;
+  width: auto;
+  padding: 12px 50px;
+  font-weight: 800;
+  font-size: 1.4em;
+  text-transform: uppercase;
+
+}
+
+
+.benefits-icon_styl {
+  width: 50%;
+  margin-bottom: 20%;
+}
+
+
+
 figure.snip1249 .price {
   position: absolute;
   right: 0;
@@ -749,6 +813,10 @@ figure.snip1249.hover:after {
 	margin-top: 20%;
 }
 
+.shoe-category-icons {
+	margin-bottom: 10%;
+}
+
 .currency {
 	font-size: 12px;
 }
@@ -767,6 +835,17 @@ figure.snip1249.hover:after {
 	font-size: 25px!important;
 }
 
+[class^="flaticon-"]:hover, [class*=" flaticon-"]:hover,
+[class^="flaticon-"]:hover, [class*=" flaticon-"]:hover {
+	cursor: pointer!important;
+}
+
+
+.shoe-type_name_styl {
+	color: #FD6A06;
+	font-weight: 700;
+	font-size: 18px;
+}
 
 
 /*TOOL TIP STYLING*/
@@ -856,5 +935,6 @@ figure.snip1249.hover:after {
 .add-to-cart-modal {
 	margin-bottom: 10%;
 }
+
  
 }
