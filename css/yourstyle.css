@@ -718,11 +718,21 @@ figure.snip1249 .add-to-cart:hover {
   text-transform: uppercase;
 
 }
-
+.font-w8t_500 {
+  font-weight: 300!important;
+  font-size: 14px!important;
+}
 
 .benefits-icon_styl {
-  width: 50%;
+  width: 30%;
+  margin-bottom: 10%;
+}
+
+.benefits-text_style {
   margin-bottom: 20%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 

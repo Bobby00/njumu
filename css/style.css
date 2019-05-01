@@ -943,12 +943,12 @@ section.dec-sec:after {
 .section-title p {
 	float:left;
 	text-align:left;
-	/*font-family: Georgia, "Times New Roman", Times, serif;*/
+	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 14px;
 	font-weight: 300;
 	font-style:italic;
 	color:#494949;
-	max-width:500px;
+	max-width:600px;
 }
 /*------ Home -------------------------------------------------*/
 .hero-slider-holder {
