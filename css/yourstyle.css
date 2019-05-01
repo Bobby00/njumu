@@ -785,20 +785,20 @@ figure.snip1249.hover:after {
 }
 
 .shoe-size {
-	font-size: 18px;
+	font-size: 16px;
 	color: #20638f;
-	font-weight: 500;
+	font-weight: 700;
 }
 .shoe-condition {
-	font-size: 18px;
+	font-size: 16px;
 	color: #20638f;
 	letter-spacing: -0.7px;
-	font-weight: 500;
+	font-weight: 700;
 }
 .quality-score {
-	font-size: 18px;
+	font-size: 16px;
 	color: #20638f;
-	font-weight: 500;	
+	font-weight: 700;	
 }
 .shoe-price {
 	font-size: 18px;
