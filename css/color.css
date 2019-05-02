@@ -52,6 +52,9 @@ a.overview_cart-btn:hover {
 	color: #FD6A06!important;
 	font-weight: 700;
 }
+.color-orangish {
+	color: #FD6A06;
+}
 
 .loader {
 	border-top: 10px solid  #FD6A06;
@@ -60,4 +63,10 @@ a.overview_cart-btn:hover {
 }
 .hd-box-wrap h2:after{
 	border-color: transparent #ffc815 transparent transparent;
+}
+
+
+.team_role_txt {
+  color: #20638f!important;
+  font-size: 15px;
 }
